@@ -2,12 +2,12 @@
 module OpenID
   @@timeout_threshold = 20
 
-  def timeout_threshold
-    @@timeout_threashold
+  def self.timeout_threshold
+    @@timeout_threshold
   end
 
-  def timeout_threshold=(value)
-    @@timeout_threashold = value
+  def self.timeout_threshold=(value)
+    @@timeout_threshold = value
   end
 
   class StandardFetcher
